@@ -18,5 +18,6 @@ extern int status_S6;
 
 void Scan_input();
 void Scan_input(Sensor);
+void GetInput(Sensor);
 
 #endif
