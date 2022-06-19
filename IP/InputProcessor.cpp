@@ -21,4 +21,7 @@ void GetInput(Sensor)
   if(Sensor == 5){
     return Status_S5;
   }
+  if(Sensor == 6){
+    return Status_S6;
+  }
 }
