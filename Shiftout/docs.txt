@@ -4,10 +4,10 @@ Created by Racer0815 June 2022.
 https://github.com/Racer0815/SuperNova_Pinball
 
 
-Shiftout([clock Pin],[Data Pin],[Latch Pin]);
+Shiftout(int clockPin, int dataPin, int latchPin);
 
 Methods:
 
-Pin_HIGH([ShiftRegister],[Bit]);
-Pin_LOW([ShiftRegister],[Bit]);
-Shift();
+void Pin_HIGH(int Register, int Bit);
+void Pin_LOW(int Register, int Bit);
+void Shift();
