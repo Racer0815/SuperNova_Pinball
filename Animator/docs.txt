@@ -1,0 +1,16 @@
+Animator - Part of the Supernova_Pinball Library.
+Created by Racer0815 June 2022.
+https://github.com/Racer0815/SuperNova_Pinball
+
+Animator(int starttick, int tps);
+
+Methods:
+
+bool timed(int timecode);
+bool timed_once(int timecode);
+int get_tick();
+void tick();
+void reset_tick();
+void set_tick(int tick);
+void add_tick(int ticks);
+void remove_tick(int ticks);
