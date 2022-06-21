@@ -3,7 +3,7 @@ Shiftout Library - Part of the Supernova_Pinball Library.
 Created by Racer0815 June 2022.
 https://github.com/Racer0815/SuperNova_Pinball
 
-
+Constructor:
 Shiftout(int clockPin, int dataPin, int latchPin);
 
 Methods:
