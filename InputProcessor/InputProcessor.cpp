@@ -29,7 +29,7 @@ void InputProcessor::scan_Ports()
   _VSensor5 = analogRead(_Sensor5);
   _VSensor6 = analogRead(_Sensor6);
 
-  if(_VSensor1 > _threshold)
+  if(_VSensor1 < _threshold)
   {
     _SSensor1 = true;
   }
@@ -37,7 +37,7 @@ void InputProcessor::scan_Ports()
   {
     _SSensor1 = false;
   }
-  if(_VSensor2 > _threshold)
+  if(_VSensor2 < _threshold)
   {
     _SSensor2 = true;
   }
@@ -45,7 +45,7 @@ void InputProcessor::scan_Ports()
   {
     _SSensor2 = false;
   }
-  if(_VSensor3 > _threshold)
+  if(_VSensor3 < _threshold)
   {
     _SSensor3 = true;
   }
@@ -53,7 +53,7 @@ void InputProcessor::scan_Ports()
   {
     _SSensor3 = false;
   }
-  if(_VSensor4 > _threshold)
+  if(_VSensor4 < _threshold)
   {
     _SSensor4 = true;
   }
@@ -61,7 +61,7 @@ void InputProcessor::scan_Ports()
   {
     _SSensor4 = false;
   }
-  if(_VSensor5 > _threshold)
+  if(_VSensor5 < _threshold)
   {
     _SSensor5 = true;
   }
@@ -69,7 +69,7 @@ void InputProcessor::scan_Ports()
   {
     _SSensor5 = false;
   }
-  if(_VSensor6 > _threshold)
+  if(_VSensor6 < _threshold)
   {
     _SSensor6 = true;
   }
