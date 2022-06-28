@@ -1,0 +1,6 @@
+Motordriver KEYWORD1
+start   KEYWORD2
+stop    KEYWORD2
+run KEYWORD2
+is_running  KEYWORD2
+get_power KEYWORD2
