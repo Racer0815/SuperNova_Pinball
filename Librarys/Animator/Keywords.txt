@@ -1,0 +1,9 @@
+Animator	KEYWORD1
+timed	KEYWORD2
+timed_once	KEYWORD2
+get_tick	KEYWORD2
+tick	KEYWORD2
+reset_tick	KEYWORD2
+set_tick	KEYWORD2
+add_tick	KEYWORD2
+remove_tick	KEYWORD2
