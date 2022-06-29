@@ -55,7 +55,7 @@ bool Motordriver::is_running()
     }
 };
 
-int Motordriver::get_voltage()
+int Motordriver::get_power()
 {
     return _currvoltage;
 }
