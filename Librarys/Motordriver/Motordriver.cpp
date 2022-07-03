@@ -20,7 +20,7 @@ void Motordriver::start(int voltage)
 {
     if(_currvoltage == 0 && voltage > 0)
     {
-    digitalWrite(_pin,_startvoltage);
+    analogWrite(_pin,_startvoltage);
     delay(2);
     analogWrite(_pin, voltage);
     _currvoltage = voltage;
@@ -38,7 +38,7 @@ void Motordriver::run(int voltage)
 {
    if(_currvoltage != 0 && voltage > 0)
    {
-       digitalWrite(_pin, voltage);
+       amalogWrite(_pin, voltage);
        _currvoltage = voltage;
    }
 };
